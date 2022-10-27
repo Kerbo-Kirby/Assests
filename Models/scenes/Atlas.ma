@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Atlas.ma
-//Last modified: Thu, Oct 27, 2022 01:10:41 AM
+//Last modified: Thu, Oct 27, 2022 01:11:34 AM
 //Codeset: 1252
 requires maya "2022";
 requires -nodeType "RadeonProRenderGlobals" "RadeonProRender" "3.3.15";
@@ -13,17 +13,17 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19044)";
-fileInfo "UUID" "19EF86E2-49A5-F13E-105D-AEAFA30E2116";
+fileInfo "UUID" "CC70E600-46C2-8199-DFD0-E7926273B024";
 createNode transform -s -n "persp";
 	rename -uid "57745EF5-4202-96A4-A73C-3B96079F1724";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -7.4781840678242908 29.82412350545636 28.004516778507622 ;
+	setAttr ".t" -type "double3" -37.118588333911617 101.99063233218445 141.79578142448625 ;
 	setAttr ".r" -type "double3" -391.53835248739534 -21254.599999986407 8.2167111211803867e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C3EE74A5-48D9-0E33-7027-05AF0BF179E1";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 34.552181655061496;
+	setAttr ".coi" 172.51960705332883;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
